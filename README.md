@@ -1,2 +1,2 @@
 # img-flip
-animated display of alternate product images on category pages
+plugin for animated display of alternate product images on category pages

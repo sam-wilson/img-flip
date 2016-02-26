@@ -1,0 +1,26 @@
+.v65-productDisplay > tbody > tr > td > a > img.ImgSwap, .v65-productDisplay > tbody > tr > td > a > img.altImgSwap {
+  position:absolute;
+  top:0;
+}
+.v65-productDisplay > tbody > tr > td > a > img.ImgSwap {
+  opacity:1;
+
+}
+.v65-productDisplay > tbody > tr > td > a > img.altImgSwap {
+  opacity:0;
+}
+.v65-productDisplay > tbody > tr > td a[href*="-p/"] {
+  display:block;
+  width:100%;
+  height:100%;
+  position:relative;
+}
+.v65-productDisplay > tbody > tr > td:hover > a > img.ImgSwap {
+  opacity:0;-out;transform: rotateY(180deg);
+}
+.v65-productDisplay > tbody > tr > td:hover > a > img.altImgSwap {
+  opacity:1;-out;transform: rotateY(180deg);
+}
+.ImgSwap, .altImgSwap, .v65-productDisplay > tbody > tr > td:hover > a > img.ImgSwap, .v65-productDisplay > tbody > tr > td:hover > a > img.altImgSwap {
+  transition: all .6s ease-in-out;
+}

@@ -30,19 +30,20 @@ var $jQueryModern = jQuery.noConflict(true);
 ## Effects
 
 The following effects are currently supported:
-Slide-horizontal: slide
-Slide-Vertical: slide-v
-Flip-horizontal: flip
-Flip-vertical: flip-v
-Fade: imgfade
-Flip & Fade - horizontal: flipfade
-Flip & Fade vertical: flipfade-v
-Rotating Cube-horizontal: cube
-Rotating Cube-vertical: cube-v
-
-Report new bugs [here](https://github.com/sam-wilson/img-flip/issues/new).
+<table>
+<tr><td>Slide-horizontal:</td> <td>slide</td></tr>
+<tr><td>Slide-Vertical:</td> <td>slide-v</td></tr>
+<tr><td>Flip-horizontal:</td> <td>flip</td></tr>
+<tr><td>Flip-vertical:</td> <td>flip-v</td></tr>
+<tr><td>Fade:</td> <td>imgfade</td></tr>
+<tr><td>Flip & Fade - horizontal:</td> <td>flipfade</td></tr>
+<tr><td>Flip & Fade vertical:</td> <td>flipfade-v</td></tr>
+<tr><td>Rotating Cube-horizontal:</td> <td>cube</td></tr>
+<tr><td>Rotating Cube-vertical:</td> <td>cube-v</td></tr>
+</table>
 
 <a name="troubleshooting"></a>
 ## Troubleshooting
 
-Visit the [issue tracking system](https://github.com/sam-wilson/img-flip/issues) 
+Visit the [issue tracking system](https://github.com/sam-wilson/img-flip/issues) <br>
+Report new bugs [here](https://github.com/sam-wilson/img-flip/issues/new).
